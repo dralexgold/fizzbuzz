@@ -1,4 +1,6 @@
 $(document).ready(function() {
 	console.log('loaded');
-	$('body')
+	$('button').click(function(){
+		console.log('clicked');
+	});
 });
