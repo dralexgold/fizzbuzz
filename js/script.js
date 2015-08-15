@@ -2,6 +2,7 @@ $(document).ready(function() {
 	console.log('loaded');
 	$('button').click(function(){
 		console.log('clicked');
+		prompt("Gimme a number!")
 		for (var myNum = 1; myNum < 101; myNum++){
   			if (myNum % 15 === 0) {
     			$('.fizzbuzz').append('FizzBuzz<br />');	
